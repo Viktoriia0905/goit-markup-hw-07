@@ -75,7 +75,7 @@ color: var(--second-text-color)
     transition-property:color, background-color, border-radius;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    &:hover,:focus {
+    &:hover, &:focus {
     border-radius: 50%;
     background-color: #2196F3;
     color: #ffffff;

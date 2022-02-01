@@ -151,7 +151,7 @@ button {
   border-radius: 2px;
 }
 
-.header__link:hover, .header__link :focus {
+.header__link:hover, .header__link:focus {
   color: var(--accent-color);
 }
 
@@ -174,7 +174,7 @@ button {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.header__mail:hover, .header__mail :focus {
+.header__mail:hover, .header__mail:focus {
   color: var(--accent-color);
 }
 
@@ -193,7 +193,7 @@ button {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.header__tel:hover, .header__tel :focus {
+.header__tel:hover, .header__tel:focus {
   color: var(--accent-color);
 }
 
@@ -228,32 +228,6 @@ button {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.benefits-images-list {
-  display: flex;
-  justify-content: center;
-  padding-right: 30px;
-}
-
-.benefits-images__item {
-  width: 270px;
-  height: 120px;
-  background-color: #F5F4FA;
-  margin-bottom: 30px;
-}
-
-.benefits-images__item:not(:last-child) {
-  margin-right: 30px;
-}
-
-.benefits-images__link {
-  width: 100%;
-  height: 100%;
-  border-radius: 4px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 .benefits-list {
   display: flex;
   align-items: center;
@@ -261,16 +235,27 @@ button {
   padding-right: 160px;
 }
 
-.benefits__item {
+.benefits-list__item {
   width: 270px;
-  height: 101px;
+  height: 251px;
 }
 
-.benefits__item:not(:last-child) {
+.benefits-list__item:not(:last-child) {
   margin-right: 30px;
 }
 
-.benefits__title {
+.benefits-list__link {
+  width: 270px;
+  height: 120px;
+  background-color: #F5F4FA;
+  margin-bottom: 30px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.benefits-list__title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -280,7 +265,7 @@ button {
   color: var(--main-text-color);
 }
 
-.benefits__text {
+.benefits-list__text {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -419,7 +404,7 @@ section.limit {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.team-social__link:hover, .team-social__link :focus {
+.team-social__link:hover, .team-social__link:focus {
   border-radius: 50%;
   background-color: #2196F3;
   color: #ffffff;
@@ -474,7 +459,7 @@ section.limit {
   transition: border, color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.regular-customers__link:hover, .regular-customers__link :focus {
+.regular-customers__link:hover, .regular-customers__link:focus {
   border: 1px solid var(--accent-color);
   color: var(--accent-color);
 }
@@ -525,7 +510,7 @@ section.limit {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.address__link:hover, .address__link :focus {
+.address__link:hover, .address__link:focus {
   color: var(--accent-color);
 }
 
@@ -542,7 +527,7 @@ section.limit {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer__mail:hover, .footer__mail :focus {
+.footer__mail:hover, .footer__mail:focus {
   color: var(--accent-color);
 }
 
@@ -556,7 +541,7 @@ section.limit {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer__tel:hover, .footer__tel :focus {
+.footer__tel:hover, .footer__tel:focus {
   color: var(--accent-color);
 }
 
@@ -568,7 +553,7 @@ section.limit {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
-  text-align: center;
+  text-align: left;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #FFFFFF;
@@ -601,7 +586,7 @@ section.limit {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.follow-us__link:hover, .follow-us__link :focus {
+.follow-us__link:hover, .follow-us__link:focus {
   background-color: var(--accent-color);
 }
 
@@ -841,7 +826,7 @@ section.limit {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal__btn:hover, .modal__btn :focus {
+.modal__btn:hover, .modal__btn:focus {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 /*# sourceMappingURL=main.css.map */
